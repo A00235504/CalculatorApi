@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{A8DC810D-366F-4B2F-A907-3BF1E321BB82}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="CalculatorApi/Controllers/AddController.cs" Line="24" Column="10" />
+      <File FileName="CalculatorLibrary/CalculatorLibraryClass.cs" Line="4" Column="40" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CalculatorApi" expanded="True">
+            <Node name="CalculatorApi" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="AddController.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="CalculatorLibrary" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CalculatorApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

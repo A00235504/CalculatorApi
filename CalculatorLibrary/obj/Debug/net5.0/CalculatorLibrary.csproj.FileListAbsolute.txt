@@ -1,0 +1,12 @@
+/Users/aakashsadnani/College Semester 2/Advanced Web Development/Assignment/CalculatorApi/CalculatorLibrary/bin/Debug/net5.0/CalculatorLibrary.deps.json
+/Users/aakashsadnani/College Semester 2/Advanced Web Development/Assignment/CalculatorApi/CalculatorLibrary/bin/Debug/net5.0/CalculatorLibrary.dll
+/Users/aakashsadnani/College Semester 2/Advanced Web Development/Assignment/CalculatorApi/CalculatorLibrary/bin/Debug/net5.0/ref/CalculatorLibrary.dll
+/Users/aakashsadnani/College Semester 2/Advanced Web Development/Assignment/CalculatorApi/CalculatorLibrary/bin/Debug/net5.0/CalculatorLibrary.pdb
+/Users/aakashsadnani/College Semester 2/Advanced Web Development/Assignment/CalculatorApi/CalculatorLibrary/obj/Debug/net5.0/CalculatorLibrary.csproj.AssemblyReference.cache
+/Users/aakashsadnani/College Semester 2/Advanced Web Development/Assignment/CalculatorApi/CalculatorLibrary/obj/Debug/net5.0/CalculatorLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aakashsadnani/College Semester 2/Advanced Web Development/Assignment/CalculatorApi/CalculatorLibrary/obj/Debug/net5.0/CalculatorLibrary.AssemblyInfoInputs.cache
+/Users/aakashsadnani/College Semester 2/Advanced Web Development/Assignment/CalculatorApi/CalculatorLibrary/obj/Debug/net5.0/CalculatorLibrary.AssemblyInfo.cs
+/Users/aakashsadnani/College Semester 2/Advanced Web Development/Assignment/CalculatorApi/CalculatorLibrary/obj/Debug/net5.0/CalculatorLibrary.csproj.CoreCompileInputs.cache
+/Users/aakashsadnani/College Semester 2/Advanced Web Development/Assignment/CalculatorApi/CalculatorLibrary/obj/Debug/net5.0/CalculatorLibrary.dll
+/Users/aakashsadnani/College Semester 2/Advanced Web Development/Assignment/CalculatorApi/CalculatorLibrary/obj/Debug/net5.0/ref/CalculatorLibrary.dll
+/Users/aakashsadnani/College Semester 2/Advanced Web Development/Assignment/CalculatorApi/CalculatorLibrary/obj/Debug/net5.0/CalculatorLibrary.pdb
