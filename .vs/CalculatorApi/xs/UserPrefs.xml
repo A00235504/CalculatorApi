@@ -1,19 +1,24 @@
-﻿<Properties StartupConfiguration="{A8DC810D-366F-4B2F-A907-3BF1E321BB82}|Default">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{A8DC810D-366F-4B2F-A907-3BF1E321BB82}|Default">
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="CalculatorApi/Controllers/AddController.cs" Line="24" Column="10" />
-      <File FileName="CalculatorLibrary/CalculatorLibraryClass.cs" Line="4" Column="40" />
+      <File FileName="CalculatorApi/Controllers/AddController.cs" Line="22" Column="10" />
+      <File FileName="CalculatorApi/Controllers/SubtractController.cs" Line="13" Column="28" />
+      <File FileName="CalculatorLibrary/CalculatorLibraryClass.cs" Line="28" Column="42" />
+      <File FileName="CalculatorApi/Controllers/MultiplyController.cs" Line="13" Column="28" />
+      <File FileName="CalculatorApi/Controllers/DivideController.cs" Line="21" Column="35" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CalculatorApi" expanded="True">
             <Node name="CalculatorApi" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="AddController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
             </Node>
-            <Node name="CalculatorLibrary" expanded="True" />
+            <Node name="CalculatorLibrary" expanded="True">
+              <Node name="CalculatorLibraryClass.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
