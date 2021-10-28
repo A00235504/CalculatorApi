@@ -12,7 +12,7 @@ namespace CalculatorTests
         public void TestAddingTwoNumbers()
         {
             decimal number1 = 8M;
-            decimal number2 = 81M;
+            decimal number2 = 8M;
             decimal expected = number1 + number2;
 
             decimal actual = calculator.Add(number1, number2);
