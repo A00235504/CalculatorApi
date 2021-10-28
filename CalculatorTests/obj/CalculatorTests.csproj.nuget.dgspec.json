@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/aakashsadnani/College Semester 2/Advanced Web Development/Assignment/CalculatorApi/CalculatorTests/CalculatorTests.csproj": {}
+  },
+  "projects": {
+    "/Users/aakashsadnani/College Semester 2/Advanced Web Development/Assignment/CalculatorApi/CalculatorLibrary/CalculatorLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aakashsadnani/College Semester 2/Advanced Web Development/Assignment/CalculatorApi/CalculatorLibrary/CalculatorLibrary.csproj",
+        "projectName": "CalculatorLibrary",
+        "projectPath": "/Users/aakashsadnani/College Semester 2/Advanced Web Development/Assignment/CalculatorApi/CalculatorLibrary/CalculatorLibrary.csproj",
+        "packagesPath": "/Users/aakashsadnani/.nuget/packages/",
+        "outputPath": "/Users/aakashsadnani/College Semester 2/Advanced Web Development/Assignment/CalculatorApi/CalculatorLibrary/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aakashsadnani/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aakashsadnani/College Semester 2/Advanced Web Development/Assignment/CalculatorApi/CalculatorTests/CalculatorTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aakashsadnani/College Semester 2/Advanced Web Development/Assignment/CalculatorApi/CalculatorTests/CalculatorTests.csproj",
+        "projectName": "CalculatorTests",
+        "projectPath": "/Users/aakashsadnani/College Semester 2/Advanced Web Development/Assignment/CalculatorApi/CalculatorTests/CalculatorTests.csproj",
+        "packagesPath": "/Users/aakashsadnani/.nuget/packages/",
+        "outputPath": "/Users/aakashsadnani/College Semester 2/Advanced Web Development/Assignment/CalculatorApi/CalculatorTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aakashsadnani/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/aakashsadnani/College Semester 2/Advanced Web Development/Assignment/CalculatorApi/CalculatorLibrary/CalculatorLibrary.csproj": {
+                "projectPath": "/Users/aakashsadnani/College Semester 2/Advanced Web Development/Assignment/CalculatorApi/CalculatorLibrary/CalculatorLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
