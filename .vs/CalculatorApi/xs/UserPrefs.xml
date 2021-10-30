@@ -1,18 +1,19 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{256118BA-C05C-4E68-97EB-05C840F32190}|Unit Tests">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{A8DC810D-366F-4B2F-A907-3BF1E321BB82}|Default">
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="CalculatorApi/Controllers/AddController.cs" Line="22" Column="10" />
-      <File FileName="CalculatorApi/Controllers/SubtractController.cs" />
-      <File FileName="CalculatorLibrary/CalculatorLibraryClass.cs" />
-      <File FileName="CalculatorApi/Controllers/MultiplyController.cs" />
-      <File FileName="CalculatorApi/Controllers/DivideController.cs" />
-      <File FileName="CalculatorTests/UnitTest1.cs" Line="90" Column="49" />
+      <File FileName="CalculatorTests/UnitTest1.cs" Line="151" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CalculatorApi" expanded="True">
-            <Node name="CalculatorTests" expanded="True" />
+            <Node name="CalculatorApi" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="CalculatorLibrary" expanded="True" />
+            <Node name="CalculatorTests" expanded="True">
+              <Node name="UnitTest1.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
