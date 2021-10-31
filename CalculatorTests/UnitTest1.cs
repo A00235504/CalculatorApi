@@ -430,7 +430,7 @@ namespace CalculatorTests
             decimal number1 = -37.7847M;
             decimal number2 = 1;
 
-            //expected should be the leftNumber number itself
+            //expected should be the number1 
             decimal expected = number1;
 
             decimal actual = calculator.Multiply(number1, number2);
@@ -438,9 +438,265 @@ namespace CalculatorTests
             Assert.AreEqual(expected, actual);
         }
 
-        
+        //           -------DIVISION TESTS-----------
+
+        //Test-1
+        [TestMethod]
+        public void TestDivideTwoNumbers()
+        {
+            decimal number1 = 14M;
+            decimal number2 = -22M;
+            decimal expected = number1 / number2;
+
+            decimal actual = calculator.Divide(number1, number2);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        //Test-2
+        [TestMethod]
+        public void TestDivideANumberByZero()
+        {
+            decimal number1 = 76M;
+            decimal number2 = 0;
+
+            Assert.ThrowsException<DivideByZeroException>(() => calculator.Divide(number1, number2));
+        }
+
+        //Test-3        
+        [TestMethod]
+        public void TestDivideANumberByOne()
+        {
+            decimal number1 = 54.0M;
+            decimal number2 = 1M;
+            
+            decimal expected = number1;
+
+            decimal actual = calculator.Divide(number1, number2);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        //Test-4
+        [TestMethod]
+        public void TestDivideTwoNegativeNumbers()
+        {
+            decimal number1 = -34M;
+            decimal number2 = -72M;
+            decimal expected = number1 / number2;
+
+            decimal actual = calculator.Divide(number1, number2);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        //Test-5
+        [TestMethod]
+        public void TestDivideTwoDecimalNumbers()
+        {
+            decimal number1 = 87.24M;
+            decimal number2 = 95.12M;
+            decimal expected = number1 / number2;
+
+            decimal actual = calculator.Divide(number1, number2);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        //Test-6
+        [TestMethod]
+        public void TestDivideTwoNegativeDecimalNumbers()
+        {
+            decimal number1 = -74.44M;
+            decimal number2 = -92.11M;
+            decimal expected = number1 / number2;
+
+            decimal actual = calculator.Divide(number1, number2);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        //Test-7
+        [TestMethod]
+        public void TestDivideOnePostiveOneNegativeDecimalNumbers()
+        {
+            decimal number1 = 84.24M;
+            decimal number2 = -62.12M;
+            decimal expected = number1 / number2;
+
+            decimal actual = calculator.Divide(number1, number2);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        //Test-8
+        [TestMethod]
+        public void TestDivideADecimalByOne()
+        {
+            decimal number1 = 64.124M;
+            decimal number2 = 1M;
+
+            decimal expected = number1;
+
+            decimal actual = calculator.Divide(number1, number2);
+
+            //expected answer should be number1
+            Assert.AreEqual(expected, actual);
+        }
+
+        //Test-9
+        [TestMethod]
+        public void TestDivideANegativeDecimalByOne()
+        {
+            decimal number1 = -43.92M;
+            decimal number2 = 1M;
+            
+            decimal expected = number1;
+
+            decimal actual = calculator.Divide(number1, number2);
+            //the expected answer should be number1
+            Assert.AreEqual(expected, actual);
+        }
+
+        //Test-10
+        [TestMethod]
+        public void TestDivideTwoZeros()
+        {
+            decimal number1 = 0;
+            decimal number2 = 0;
+
+            Assert.ThrowsException<DivideByZeroException>(() => calculator.Divide(number1, number2));
+        }
 
 
+        //           -------DIVISION TESTS-----------
+
+        //Test-1
+        [TestMethod]
+        public void TestDividingTwoNumbers()
+        {
+            decimal leftNumber = 24M;
+            decimal rightNumber = -12M;
+            decimal expected = leftNumber / rightNumber;
+
+            decimal actual = calculator.Divide(leftNumber, rightNumber);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        //Test-2
+        [TestMethod]
+        public void TestDividingANumberByZero()
+        {
+            decimal leftNumber = 24M;
+            decimal rightNumber = 0;
+
+            Assert.ThrowsException<DivideByZeroException>(() => calculator.Divide(leftNumber, rightNumber));
+        }
+
+        //Test-3        
+        [TestMethod]
+        public void TestDividingANumberByOne()
+        {
+            decimal leftNumber = 24.0M;
+            decimal rightNumber = 1M;
+            //expected should be the leftNumber number itself
+            decimal expected = leftNumber;
+
+            decimal actual = calculator.Divide(leftNumber, rightNumber);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        //Test-4
+        [TestMethod]
+        public void TestDividingTwoNegativeNumbers()
+        {
+            decimal leftNumber = -24M;
+            decimal rightNumber = -12M;
+            decimal expected = leftNumber / rightNumber;
+
+            decimal actual = calculator.Divide(leftNumber, rightNumber);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        //Test-5
+        [TestMethod]
+        public void TestDividingTwoDecimalNumbers()
+        {
+            decimal leftNumber = 24.24M;
+            decimal rightNumber = 12.12M;
+            decimal expected = leftNumber / rightNumber;
+
+            decimal actual = calculator.Divide(leftNumber, rightNumber);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        //Test-6
+        [TestMethod]
+        public void TestDividingTwoNegativeDecimalNumbers()
+        {
+            decimal leftNumber = -44.24M;
+            decimal rightNumber = -22.12M;
+            decimal expected = leftNumber / rightNumber;
+
+            decimal actual = calculator.Divide(leftNumber, rightNumber);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        //Test-7
+        [TestMethod]
+        public void TestDividingOnePostiveOneNegativeDecimalNumbers()
+        {
+            decimal leftNumber = 24.24M;
+            decimal rightNumber = -22.12M;
+            decimal expected = leftNumber / rightNumber;
+
+            decimal actual = calculator.Divide(leftNumber, rightNumber);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        //Test-8
+        [TestMethod]
+        public void TestDividingADecimalByOne()
+        {
+            decimal leftNumber = 24.1342M;
+            decimal rightNumber = 1M;
+            //expected should be the leftNumber number itself
+            decimal expected = leftNumber;
+
+            decimal actual = calculator.Divide(leftNumber, rightNumber);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        //Test-9
+        [TestMethod]
+        public void TestDividingANegativeDecimalByOne()
+        {
+            decimal leftNumber = -63.42M;
+            decimal rightNumber = 1M;
+            //expected should be the leftNumber number itself
+            decimal expected = leftNumber;
+
+            decimal actual = calculator.Divide(leftNumber, rightNumber);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        //Test-10
+        [TestMethod]
+        public void TestDividingTwoZeros()
+        {
+            decimal leftNumber = 0;
+            decimal rightNumber = 0;
+
+            Assert.ThrowsException<DivideByZeroException>(() => calculator.Divide(leftNumber, rightNumber));
+        }
 
     }
 }
